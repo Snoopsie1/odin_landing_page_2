@@ -8,10 +8,10 @@ Newer and better landing page:)
       · Overall 
             - Flexbox Row [ ]
             - Nav Bar follows scroll [ ]
-    · Icon 
+        · Icon 
             - Section Jumps [ ]
             - On Hover effect, make icon spin [ ]
-    · Links 
+        · Links 
             - Section Jumps [ ]
             - Remove that blue and "visited" color [ ]
     - 4 Items that describe me Section
@@ -40,8 +40,8 @@ Newer and better landing page:)
             - Actual link [ ]
     - Footer        
 
-    
-        
+
+
 - - - - Credit To - - - -
 Thanks to https://unsplash.com/@karsten116 for the amazing picture of the
 frenchie!
