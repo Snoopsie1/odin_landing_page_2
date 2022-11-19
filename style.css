@@ -5,6 +5,11 @@
   margin: 0;
 }
 
+html {
+    background-color: #3A8891;
+    scroll-behavior: smooth;
+}
+
 a {
     color: black;
 }
@@ -19,6 +24,13 @@ p {
     color: whitesmoke
 }
 
+.title {
+    color: white;
+    text-shadow: 3px 4px black;
+    text-align: center;
+    padding: 48px;
+    padding-top: 96px;
+  }
 
 .nav {
     display: flex;
@@ -92,7 +104,7 @@ p {
   }
 
   .hero-img img {
-    margin-bottom: -69px; /* nice */
+    margin-bottom: -68px; /* almost nice */
     width: 8em;
     height: 8em;
   }
@@ -115,4 +127,33 @@ p {
   .hero-text h1 {
     color: moccasin; 
     text-shadow: 2px 2px black;
+  }
+
+
+  .items-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    padding: 0px 24px 96px 24px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 8px;
+    padding: 24px;  
+    color: white;
+    text-shadow: 2px 2px 1px black;
+  }
+
+  .item-icon {
+    width: 200px;
+    height: 200px;
+    border: 12px solid moccasin;
+    border-radius: 32px;
+    box-shadow: 2px 2px 3px black;
+    object-fit: cover;
   }
