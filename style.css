@@ -191,9 +191,9 @@ p {
     gap: 8px;
     padding: 24px;
     width: 300px;
-  }
+}
   
-  .portfolio-icon {
+.portfolio-icon {
     width: 200px;
     height: 200px;
     padding: 12px;
@@ -202,21 +202,47 @@ p {
     border-radius: 32px;
     box-shadow: 2px 2px 3px black;
 
-  }
+}
   
-  .portfolio-icon:hover {
+.portfolio-icon:hover {
     border: 12px solid rgb(235, 195, 135);
     border-radius: 32px;
     box-shadow: 4px 4px 10px black;
     transition: border-color 0.521s;
     transition: box-shadow 0.3s;    
-  }
+}
   
-  .portfolio-text {
+.portfolio-text {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     flex-wrap: wrap;
     max-width: 200px;
     font-size: 18px;
     font-weight: bold;
-  }
+}
+/* Quote Section*/
+.quote-section {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    padding: 128px 128px 96px;
+    border-bottom: solid black 1px;
+    font-size: 24px;
+    line-height: 150%;
+    font-style: italic;
+}
+  
+.quote-section p {
+    text-align: end;
+    font-style: normal;
+    font-weight: 600;
+    color: moccasin;
+}
+
+/* footer */
+footer p {
+    padding: 24px;
+    text-align: center;
+    color: black;
+    background-color: rgb(230, 250, 250);
+}
