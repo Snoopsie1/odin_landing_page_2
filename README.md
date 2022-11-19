@@ -6,38 +6,35 @@ Newer and better landing page:)
 - FlexBox Columns Entire Page [X]
     - Nav Bar
       · Overall 
-            - Flexbox Row [ ]
-            - Nav Bar follows scroll [ ]
+            - Flexbox Row [X]
+            - Nav Bar follows scroll [X]
         · Icon 
-            - Section Jumps [ ]
-            - On Hover effect, make icon spin [ ]
+            - Section Jumps [X]
+            - On Hover effect, make icon spin [X]
         · Links 
-            - Section Jumps [ ]
-            - Remove that blue and "visited" color [ ]
+            - Section Jumps [X]
+            - Remove that blue and "visited" color [X]
     - 4 Items that describe me Section
         · Overall
-            - Flexbox Row [ ]
-            - Flexbox Wrap [ ]
-            - Flexbox basis 100%? [ ]
+            - Flexbox Row [X]
+            - Flexbox Wrap [X]
     - Portfolio Section
         · Overall
-            - Flexbox Row [ ]
-            - Flexbox Wrap [ ]
-            - Flexbox basis 100%? [ ]
+            - Flexbox Row [X]
+            - Flexbox Wrap [X]
     - Favourite Quote Section
         · Text
-            - Find a good quote [ ]
-            - Make it italic [ ]
+            - Find a good quote [X]
+            - Make it italic [X]
         · Author
-            - Make author name bold [ ]
+            - Make author name bold [X]
     - My links Section
         · Title
-            - Bold [ ]
+            - Bold [X]
         · Structure
-            - UL
-                – Icons for areas linked to [ ]
-            - Title of area [ ]
-            - Actual link [ ]
+            – Icons for areas linked to [X]
+            - Title of area [X]
+            - Actual link [X]
     - Footer        
 
 

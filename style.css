@@ -239,6 +239,58 @@ p {
     color: moccasin;
 }
 
+/* Links */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(
+        60deg,
+      rgba(57, 60, 90, 0.85),
+      rgba(180, 180, 120, 0.5)
+    ),
+    url(https://wallpaperforu.com/wp-content/uploads/2020/09/van-gogh-wallpaper-2009121402374-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+
+    font-weight: bold;
+    text-shadow: black 1px 1px;
+}
+
+.contact-info-container {
+    margin-bottom: 36px;
+}
+
+.contact-info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.contact-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.contact-section a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: black 2px 2px;
+}
+
+.contact-section a:hover {
+  color: lightskyblue;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: black 2px 2px;
+}
+
 /* footer */
 footer p {
     padding: 24px;
