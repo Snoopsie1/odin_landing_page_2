@@ -3,7 +3,7 @@
 Newer and better landing page:)
 
 - - - - TO DO - - - -
-- FlexBox Columns Entire Page [ ]
+- FlexBox Columns Entire Page [X]
     - Nav Bar
       · Overall 
             - Flexbox Row [ ]
