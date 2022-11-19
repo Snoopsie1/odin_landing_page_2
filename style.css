@@ -30,8 +30,10 @@ p {
     text-align: center;
     padding: 48px;
     padding-top: 96px;
-  }
+}
 
+
+/* Nav Stuff */
 .nav {
     display: flex;
     align-items: center;
@@ -55,29 +57,30 @@ p {
     -webkit-transform: rotate(720deg);
   }
 
-  .nav-links {
+.nav-links {
     display: flex;
     align-items: center;
     text-align: center;
     list-style: none;
     margin-left: auto;
     margin-right: 12px;
-  }
+}
 
-  .nav-links a {
+.nav-links a {
     text-decoration: none;
     display: block;
     font-size: 20px;
     padding: 16px;
-  }
+}
 
-  .nav-links a:hover {
+.nav-links a:hover {
     background-color: #0E5E6F;
     color: white;
     text-shadow: 2px 2px 1px black;
-  }
+}
 
-  .hero {
+/* Hero Stuff */
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,9 +94,9 @@ p {
     url(https://wallpaperforu.com/wp-content/uploads/2020/07/yellow-aesthetic-wallpaper-20072002133214.jpg);
     background-position: center;
     background-size: cover;
-  }
+}
 
-  .hero-img {
+.hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,15 +104,15 @@ p {
     gap: 24px;
     padding: 32px;
 
-  }
+}
 
-  .hero-img img {
+.hero-img img {
     margin-bottom: -68px; /* almost nice */
     width: 8em;
     height: 8em;
-  }
+}
 
-  .hero-text {
+.hero-text {
     margin-right: 8px;
     margin-top: 60px;
 
@@ -122,23 +125,23 @@ p {
 
     inline-size: 380px;
     overflow-wrap: break-word;
-  }
+}
 
-  .hero-text h1 {
+.hero-text h1 {
     color: moccasin; 
     text-shadow: 2px 2px black;
-  }
+}
 
-
-  .items-container {
+/* Items Stuff */
+.items-container {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
 
     padding: 0px 24px 96px 24px;
-  }
+}
 
-  .item {
+.item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,13 +150,73 @@ p {
     padding: 24px;  
     color: white;
     text-shadow: 2px 2px 1px black;
-  }
+}
 
-  .item-icon {
+.item-icon {
     width: 200px;
     height: 200px;
     border: 12px solid moccasin;
     border-radius: 32px;
     box-shadow: 2px 2px 3px black;
     object-fit: cover;
+}
+
+/* Portfolio Stuff */
+.portfolio-section {
+    justify-content: center;
+    border-bottom: solid black 1px;
+    background-image: linear-gradient(
+        60deg,
+        rgba(57, 60, 90, 0.85),
+        rgba(180, 180, 120, 0.5)
+      ),
+      url(https://wallpaperforu.com/wp-content/uploads/2020/05/papaver-rhoeas-63yI-VSessk-unsplash-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0px 24px 96px 24px;
+}
+.portfolio-tile {
+    color: white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding: 24px;
+    width: 300px;
+  }
+  
+  .portfolio-icon {
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+    border: 12px solid moccasin;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 2px 2px 3px black;
+
+  }
+  
+  .portfolio-icon:hover {
+    border: 12px solid rgb(235, 195, 135);
+    border-radius: 32px;
+    box-shadow: 4px 4px 10px black;
+    transition: border-color 0.521s;
+    transition: box-shadow 0.3s;    
+  }
+  
+  .portfolio-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: bold;
   }
