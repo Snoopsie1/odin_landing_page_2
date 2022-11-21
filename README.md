@@ -40,11 +40,12 @@ Newer and better landing page:)
 
 - - - - TSUKANI TWEAKS - - - -
 - Friends Section
-    · Make text larger [ ]
+    · Make text larger [X]
     · Make pictures into hrefs that goes to their github [ ]
 - Portfolio Section
-    · Remove Bold text on items [ ]
-- make img non-draggable [ ]
+    · Remove Bold text on items [X]
+- make img non-draggable [X]
+- Maybe change font []
 
 - - - - Personal TWEAKS - - - -
 - Centered Hero [X]
