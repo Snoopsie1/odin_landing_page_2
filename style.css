@@ -294,6 +294,10 @@ img {
     width: 30px;
 }
 
+.contact-section p {
+    text-shadow: black 2px 2px;
+}
+
 .contact-section a {
   color: white;
   text-decoration: none;
@@ -302,7 +306,7 @@ img {
 }
 
 .contact-section a:hover {
-  color: lightskyblue;
+  color: moccasin;
   text-decoration: none;
   font-weight: bolder;
   text-shadow: black 2px 2px;
