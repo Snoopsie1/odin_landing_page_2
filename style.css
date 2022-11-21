@@ -170,6 +170,14 @@ img {
     object-fit: cover;
 }
 
+.item-icon:hover {
+    border: 12px solid rgb(235, 195, 135);
+    border-radius: 32px;
+    box-shadow: 4px 4px 10px black;
+    transition: border-color 0.521s;
+    transition: box-shadow 0.3s;    
+}
+
 
 /* Portfolio Stuff */
 .portfolio-section {
