@@ -24,6 +24,14 @@ p {
     color: whitesmoke
 }
 
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
 .title {
     color: white;
     text-shadow: 3px 4px black;
