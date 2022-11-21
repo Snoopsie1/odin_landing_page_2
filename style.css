@@ -157,6 +157,8 @@ img {
     padding: 24px;  
     color: white;
     text-shadow: 2px 2px 1px black;
+
+    font-size: 22px;
 }
 
 .item-icon {
@@ -167,6 +169,7 @@ img {
     box-shadow: 2px 2px 3px black;
     object-fit: cover;
 }
+
 
 /* Portfolio Stuff */
 .portfolio-section {
