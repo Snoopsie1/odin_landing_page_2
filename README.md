@@ -38,6 +38,17 @@ Newer and better landing page:)
     - Footer        
 
 
+- - - - TSUKANI TWEAKS - - - -
+- Friends Section
+    · Make text larger [ ]
+    · Make pictures into hrefs that goes to their github [ ]
+- Portfolio Section
+    · Remove Bold text on items [ ]
+- make img non-draggable [ ]
+
+- - - - Personal TWEAKS - - - -
+- Centered Hero [X]
+
 
 - - - - Credit To - - - -
 Thanks to https://unsplash.com/@karsten116 for the amazing picture of the
