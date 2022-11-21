@@ -107,6 +107,8 @@ img {
 .hero-img {
     display: flex;
     justify-content: center;
+    flex: auto;
+    flex-basis: 2%;
     align-items: center;
     margin: 64px 36px 36px;
     gap: 24px;
@@ -126,11 +128,13 @@ img {
 
     display: flex;
     flex-direction: column;
+    flex: auto;
+
     gap: 8px;
 
     padding-left: 26px;
 
-    inline-size: 380px;
+    inline-size: 480px;  /* this somehow pushes our dog */
     overflow-wrap: break-word;
 }
 
